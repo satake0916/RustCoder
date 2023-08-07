@@ -1,7 +1,3 @@
 [tasks.BUILD]
 description = "Build src/main.rs"
 script = "cargo build --release --quiet --offline"
-
-[tasks.RUN]
-description = "Run"
-script = "./target/release/atcoder"
