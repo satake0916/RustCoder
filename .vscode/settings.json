@@ -1,6 +1,10 @@
 {
     "editor.formatOnSave": true,
     "[rust]": {
-        "editor.defaultFormatter": "rust-lang.rust-analyzer"
+        "editor.defaultFormatter": "rust-lang.rust-analyzer",
+        "editor.quickSuggestions": true,
     },
+    "rust-analyzer.linkedProjects": [
+        "Cargo.toml"
+    ]
 }

@@ -66,3 +66,5 @@ proconio="0.4.5"
 text_io="0.1.12"
 rustc-hash="1.1.0"
 smallvec="1.11.0"
+
+cargo-snippet = "0.4"
