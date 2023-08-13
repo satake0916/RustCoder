@@ -1,10 +1,12 @@
 {
-    "editor.formatOnSave": true,
-    "[rust]": {
-        "editor.defaultFormatter": "rust-lang.rust-analyzer",
-        "editor.quickSuggestions": true,
-    },
-    "rust-analyzer.linkedProjects": [
-        "Cargo.toml"
-    ]
+  "editor.formatOnSave": true,
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer",
+    "editor.quickSuggestions": {
+      "comments": "on",
+      "strings": "on",
+      "other": "on"
+    }
+  },
+  "rust-analyzer.linkedProjects": ["Cargo.toml"]
 }
