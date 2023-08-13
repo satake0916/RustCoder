@@ -1,4 +1,4 @@
-#[snippet("runlength")]
+#[snippet]
 // ---------- begin Run Length Encoding ----------
 fn run_length_encoding<T: Eq>(a: Vec<T>) -> Vec<(T, usize)> {
     let mut a = a.into_iter().map(|a| (a, 1)).collect::<Vec<_>>();
