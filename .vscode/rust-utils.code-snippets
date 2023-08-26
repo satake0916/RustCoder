@@ -10,13 +10,15 @@
     "prefix": "template",
     "body": [
       "use proconio::*;",
+      "#[allow(unused_macros)]",
+      "macro_rules ! dbg {($ ($ x : tt ) * ) => {{# [cfg (debug_assertions ) ] {std :: dbg ! ($ ($ x ) * ) } # [cfg (not (debug_assertions ) ) ] {($ ($ x ) * ) } } } }",
       "",
       "fn main() {",
-      "  input! {",
-      "    n: usize",
-      "  }",
+      "    input! {",
+      "        n: usize",
+      "    }",
       "",
-      "  println!(\"{}\", );",
+      "",
       "}"
     ]
   }

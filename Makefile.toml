@@ -1,7 +1,3 @@
-[tasks.BUILD]
-description = "Build src/main.rs"
-script = "cargo build --release --quiet --offline"
-
 [tasks.SNIPPET]
 description = "Make Snippet for vscode"
 script = "cargo snippet -t vscode snippet/ > .vscode/rust.code-snippets"
